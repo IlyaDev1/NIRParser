@@ -74,7 +74,7 @@ def prog(video_file):
         # увеличить счечик кадров count
         count += 1
 
-    os.system(f'rmdir /s /q {filename}')
+    # os.system(f'rmdir /s /q {filename}')
     face_perc = face_count / save_count
     listForDel = []
     if(face_perc < 0.8):
